@@ -10,7 +10,7 @@ def generate_vhosts():
         
         print("Loading data from data.yml...")
         with open('data.yml', 'r') as file:
-            data = yaml.safe_load(file)
+            data = yaml.safe_load(file) #ТЕСТ 
         print("Data loaded successfully:", data)
         
         print("Setting up Jinja2 environment...")
